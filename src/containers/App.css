@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'STAR JEDI';
+  font-style: normal;
+  font-weight: normal;
+  src: local('STAR JEDI'), url('Starjedi.ttf') format('ttf');
+}
+
+.star-wars-font {
+  font-family: 'STAR JEDI';
+  font-weight: 200;
+}
