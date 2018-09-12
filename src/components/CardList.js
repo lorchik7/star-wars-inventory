@@ -3,7 +3,7 @@ import Card from './Card';
 
 const CardList = ({ data }) => {
 	return (
-		<div>
+		<div className="tc ma2">
 		{
 			data.map((user, i) => {
 				return (

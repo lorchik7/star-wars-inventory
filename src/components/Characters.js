@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-import Header from '../components/Header';
-import Menu from '../components/Menu';
-import Content from '../components/Content';
-import './App.css';
+import CardList from './CardList';
 
-class App extends Component {
+class Characters extends Component {
   constructor() {
     super()
     this.state = {
@@ -24,13 +21,11 @@ class App extends Component {
   render(){
     const { data } = this.state;
     return (
-      <div className="App">
-        <Header/>
-        <Menu/>
-        <Content/>
+      <div className="white">
+        <CardList data={data}/>
       </div>
-      );
+    );
   }
 }
 
-export default App;
+export default Characters;
