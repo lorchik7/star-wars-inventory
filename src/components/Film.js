@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CardList from './CardList';
 
-class Characters extends Component {
+class Film extends Component {
   constructor() {
     super()
     this.state = {
@@ -9,7 +9,7 @@ class Characters extends Component {
     };
   }
   componentDidMount() {
-    fetch('https://swapi.co/api/people/')
+    fetch('https://swapi.co/api/films/')
       .then(response => response.json())
       .then(data => {
         console.log(data);
@@ -22,10 +22,10 @@ class Characters extends Component {
     const { data } = this.state;
     return (
       <div className="white">
-        <CardList data={data} type="characters"/>
+        <CardList data={data} type="films"/>
       </div>
     );
   }
 }
 
-export default Characters;
+export default Film;
