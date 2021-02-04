@@ -9,7 +9,7 @@ class Characters extends Component {
     };
   }
   componentDidMount() {
-    fetch('https://swapi.co/api/people/')
+    fetch('https://swapi.dev/api/people/')
       .then(response => response.json())
       .then(data => {
         console.log(data);
