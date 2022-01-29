@@ -1,7 +1,7 @@
 # Star Wars Inventory
 
 ## Preview
-[https://lorchik7.github.io/robofriends/](https://lorchik7.github.io/star-wars-inventory/)
+[https://lorchik7.github.io/star-wars-inventory/](https://lorchik7.github.io/star-wars-inventory/)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
