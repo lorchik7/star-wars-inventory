@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/star-wars-inventory/static/css/main.fb33e009.css",
+    "main.js": "/star-wars-inventory/static/js/main.06b2007f.js",
+    "static/media/star-wars-background.jpg": "/star-wars-inventory/static/media/star-wars-background.e40a8cd65089665752bc.jpg",
+    "static/media/yoda.jpg": "/star-wars-inventory/static/media/yoda.61b1c8f827f5dcea1117.jpg",
+    "static/media/Starjedi.ttf": "/star-wars-inventory/static/media/Starjedi.8d577dc1e1755c4860f3.ttf",
+    "index.html": "/star-wars-inventory/index.html",
+    "main.fb33e009.css.map": "/star-wars-inventory/static/css/main.fb33e009.css.map",
+    "main.06b2007f.js.map": "/star-wars-inventory/static/js/main.06b2007f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb33e009.css",
+    "static/js/main.06b2007f.js"
+  ]
+}
